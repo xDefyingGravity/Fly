@@ -1,0 +1,19 @@
+{
+    "name": "fly",
+    "version": "1.0.0",
+    "description": "Fly is a simple image grayscale converter created in C.",
+    "license": "MIT",
+    "keywords": ["image", "grayscale", "converter"],
+    "author": "Will Ballantine",
+    "contributors": [],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/xDefyingGravity/Fly.git"
+    },
+    "dependencies": [],
+    "download": {
+        "static": "https://github.com/xDefyingGravity/Fly/releases/download/beta/libfly.a",
+        "dynamic": "https://github.com/xDefyingGravity/Fly/releases/download/beta/libfly.dylib",
+        "header": "https://raw.githubusercontent.com/xDefyingGravity/Fly/refs/heads/main/fly.h"
+    }
+}
