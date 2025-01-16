@@ -12,6 +12,10 @@ fly: $(OBJ)
 lib: $(OBJ)
 	ar rcs libfly.a $^
 
+sharedlib: $(OBJ)
+	$(CC) -shared -o libfly.dylib $^ $(LDFLAGS)
+
+
 %.o: %.c
 	$(CC) $(CFLAGS) -c -o $@ $<
 
