@@ -3,3 +3,4 @@
 fly
 libfly.*
 *.o
+libpng
